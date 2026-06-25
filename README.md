@@ -6,9 +6,6 @@ by email, it routes incoming messages to one of three specialized agents —
 Research, Teaching, or Planning — each backed by real registered tools and
 skills, sharing one permission-scoped memory core.
 
-Built for the Agentic AI Bootcamp (atomcamp) — Assignment: *Build Your Own
-Local Personal AI Assistant Using OpenClaw or Hermes Agent*.
-
 ---
 
 ## What it does
