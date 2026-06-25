@@ -1,0 +1,16 @@
+name: faculty-router
+version: 1.0.0
+description: >
+  Routes incoming messages to Research, Teaching, or Planning agent
+  instructions via per-turn context injection. Registered tools provide
+  scoped read/write access to a papers-and-courses memory core, with
+  write/read permission enforcement per agent.
+author: Fatima Habib
+provides_tools:
+  - faculty_read_paper
+  - faculty_write_paper
+  - faculty_read_course
+  - faculty_write_course
+  - faculty_status_digest
+provides_hooks:
+  - pre_llm_call
