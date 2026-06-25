@@ -80,10 +80,10 @@
 ## Which model performed best
 
 See `docs/model-comparison.md`. The honest answer: for this assistant's
-actual workload (status checks, short drafts, tool calls), the free-tier
-model performs adequately, and the cost difference against a paid
+actual workload (status checks, short drafts, tool calls), the free-tier 
+model doesn't perform adequately, and the cost difference against a paid
 reasoning model is the more decisive factor than raw capability for this
-particular use case.
+particular use case. Still, deepseek was more useable. 
 
 ## How the assistant improved the workflow
 
