@@ -28,8 +28,8 @@ frontier-level reasoning depth.
 | Model | Setup | Speed | Response Quality | Tool Use Accuracy | Cost | Notes |
 |---|---|---|---|---|---|---|
 | `deepseek-chat` | API key | Fast | N/A (single-word output only) | N/A (not given tools) | Low-cost | Used exclusively for classification; never sees user-facing output |
-| `deepseek-v4-pro` | API key | Medium-slow for long reasoning chains | High — correctly used registered tools once instructions were tightened (see reflection) | Good, after fixing two real bugs (vague instructions led to improvisation) | Paid, usage-based | Strong reasoning, but cost adds up quickly across an iterative debugging session |
-| `nvidia/nemotron-3-ultra-550b-a55b:free` | OpenRouter (one key) | Not formally timed | Used successfully as the live default after switch-over; no comparison failures observed in normal use | Not formally tested against identical prompts | Free tier (rate-limited) | Large parameter count for a free-tier model; adopted for cost control after observing DeepSeek's usage-based cost during iterative development |
+| `deepseek-v4-pro` | API key | Medium for long reasoning chains | High — correctly used registered tools once instructions were tightened (see reflection) | Good, after fixing two real bugs (vague instructions led to improvisation) | Paid, usage-based | Strong reasoning, but cost adds up quickly across an iterative debugging session |
+| `nvidia/nemotron-3-ultra-550b-a55b:free` | OpenRouter (one key) | Extremely slow, almost useless | Used successfully as the live default after switch-over; no comparison failures observed in normal use | Not formally tested against identical prompts | Free tier (rate-limited) | Large parameter count for a free-tier model; adopted for cost control after observing DeepSeek's usage-based cost during iterative development |
 
 ## Honest status
 
